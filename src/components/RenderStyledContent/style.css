@@ -1,0 +1,30 @@
+.smart-home-control-devices-description {
+  flex: 0 0 auto;
+  color: var(--color-black);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.smart-control-device-description {
+  font: var(--font-weight-400) var(--font-size-18) / 40px "Montserrat";
+  color: var(--color-dodgerblue-7b3a3dc0);
+  text-align: left;
+}
+.blue-text-highlight {
+  font: var(--font-weight-400) var(--font-size-18) / 40px "Montserrat";
+  color: var(--color-deepskyblue-5ac2a912);
+  text-align: left;
+}
+.smart-control-description {
+  font: var(--font-weight-400) var(--font-size-18) / 40px "Montserrat";
+  text-align: left;
+}
+.smart-home-device-description {
+  font: var(--font-weight-400) var(--font-size-18) / 40px "Montserrat";
+  color: var(--color-royalblue-d2744e98);
+  text-align: left;
+}
+.sensor-description-text-style {
+  font: var(--font-weight-400) var(--font-size-18) / 40px "Montserrat";
+  color: var(--color-tomato-97f003b1);
+  text-align: left;
+}

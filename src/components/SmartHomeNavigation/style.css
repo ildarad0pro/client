@@ -1,0 +1,87 @@
+.main-navigation-container {
+  flex: 0 0 auto;
+  background: var(--color-whitesmoke-b54ff344);
+  padding-right: 10%;
+  padding-left: 10%; 
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-self: stretch;
+  justify-content: center;
+  margin-top: 2.9375rem;
+}
+.header-nav-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header-nav-container-footer {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70%;
+  height: 3.6875rem;
+}
+.navigation-links-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1.8125rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navigation-link {
+  flex: 0 0 auto;
+  font: var(--font-weight-500) var(--font-size-20) "Montserrat";
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.sidebar-image-container {
+  flex: 0 0 auto;
+  margin-left: auto; /* Move the container to the center */
+  margin-right: auto; /* Also move the container to the center */
+}
+
+.boxy-image-container {
+  box-sizing: border-box;
+  display: block;
+  width: 9.5rem;
+  max-width: initial;
+  height: 2rem;
+}
+.sidebar-navigation {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 23%;
+}
+.constructor-button {
+  border: none;
+  border-radius: var(--border-radius-50);
+  font: var(--font-weight-500) var(--font-size-20) "Montserrat";
+  background: var(--color-darkcyan-64b26d24);
+  box-sizing: border-box;
+  display: block;
+  width: 20.25rem;
+  min-width: 20.25rem;
+  height: 3.6875rem;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.navbar-divider {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: 5rem;
+  margin-top: -0.3125rem;
+  border-top: 3px solid #008996;
+}

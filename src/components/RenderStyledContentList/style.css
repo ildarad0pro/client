@@ -1,0 +1,11 @@
+.smart-home-control-devices-description1 {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding-left: 4%;
+  padding-top: 3.4375rem;
+  padding-bottom: 3.4375rem;
+}

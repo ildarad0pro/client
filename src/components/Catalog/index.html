@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500" />
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <style>
+  
+      :root {
+        --color-whitesmoke-1a4d99f9: rgba(245, 245, 245, 0.68);
+        --color-black: rgba(0, 0, 0, 1);
+        --font-size-20: 20px;
+        --font-weight-500: 500;
+        --border-radius-20: 20px;
+      }
+
+      .lampshade-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 15px 35px 51px 30px;
+        background: var(--color-whitesmoke-1a4d99f9);
+        border-radius: var(--border-radius-20);
+      }
+      .lampshade-text-style {
+        flex: 0 0 auto;
+        align-self: flex-start;
+        font: var(--font-weight-500) var(--font-size-20) Montserrat;
+        color: var(--color-black);
+        white-space: pre-wrap;
+      }
+      .image-container {
+        flex: 0 0 auto;
+        padding-left: 0.3125rem;
+        margin-top: 2.9375rem;
+      }
+      .image-container-with-shadow {
+        box-sizing: border-box;
+        display: block;
+        width: 13rem;
+        max-width: initial;
+        height: 11rem;
+        border: none;
+        box-shadow: 0px 4px 20px rgba(245, 245, 245, 0.4);
+        object-fit: cover;
+      }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div style="display: inline-block; width: 278px" data-ignore="used only for top most containter width">
+      <div class="lampshade-container">
+        <p class="lampshade-text-style">Лампочки</p>
+        <div class="image-container">
+          <img src="assets/img_111_15_21010f.png" class="image-container-with-shadow" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

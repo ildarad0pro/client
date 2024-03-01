@@ -1,0 +1,49 @@
+.home-constructor-section {
+  padding: 60px 20px 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.smart-home-constructor-section {
+  flex: 0 0 auto;
+  padding-top: 1.9375rem;
+  padding-bottom: 2.6875rem;
+  margin-left: 8%;
+}
+.main-heading-text-style {
+  font: var(--font-weight-500) var(--font-size-36) "Montserrat";
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.builder-button-container {
+  padding-right: 0.1875rem;
+  padding-left: 0.1875rem;
+  margin-top: 5.6875rem;
+}
+.primary-button {
+  border: none;
+  border-radius: var(--border-radius-50);
+  font: var(--font-weight-500) var(--font-size-20) "Montserrat";
+  background: var(--color-darkcyan-64b26d24);
+  box-sizing: border-box;
+  display: block;
+  width: 20rem;
+  min-width: 20rem;
+  height: 3.7rem;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.smart-home-image-container {
+  flex: 0 0 auto;
+}
+.hero-image-container {
+  border: none;
+  border-radius: var(--border-radius-20);
+  box-sizing: border-box;
+  display: block;
+  width: 44.75rem;
+  max-width: initial;
+  height: 36.125rem;
+  object-fit: cover;
+}

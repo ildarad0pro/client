@@ -1,0 +1,48 @@
+.smart-home-centralized-control-panel {
+  padding-top: 20px;
+  padding: 114px 0px 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 120rem;
+}
+.smart-home-heading-style {
+  flex: 0 0 auto;
+  font: var(--font-weight-600) var(--font-size-40) "Montserrat";
+  color: var(--color-darkcyan-64b26d24);
+  white-space: pre-wrap;
+}
+.central-text-block {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-20) / 40px "Montserrat";
+  align-self: stretch;
+  margin-top: 1.3125rem;
+  color: var(--color-black);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.smart-home-control-devices-container {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+  margin-top: 0.75rem;
+}
+.home-component-image-container {
+  flex: 0 0 auto;
+}
+.image-container-1 {
+  margin-right: 30px;
+  border: none;
+  box-sizing: border-box;
+  display: block;
+  width: 45rem;
+  max-width: initial;
+  height: 40rem;
+  object-fit: cover;
+}

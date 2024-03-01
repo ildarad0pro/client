@@ -1,0 +1,28 @@
+.smart-home-builder {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-self: stretch;
+  justify-content: flex-start;
+  margin-top: 1.9375rem;
+}
+.smart-home-heading {
+  flex: 0 0 auto;
+  font: var(--font-weight-500) var(--font-size-36) "Montserrat";
+  color: var(--color-black);
+  white-space: pre-wrap;
+
+  /* Centering */
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+.smart-home-description {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-24) / 40px "Montserrat";
+  margin-top: 1.75rem;
+  color: var(--color-black);
+  text-align: center;
+  white-space: pre-wrap;
+}

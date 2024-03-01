@@ -1,0 +1,138 @@
+.product-categories-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2.5625rem;
+}
+.smart-home-devices-list {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.product-category-title {
+  flex: 1 0 320px;
+  border: none;
+  font: var(--font-weight-400) var(--font-size-23) "Inter";
+  background: url("../../assets/p_169_569_65e185.jpeg")
+    no-repeat 50% / cover;
+  padding: 43px 28px 688px;
+  box-sizing: border-box;
+  max-width: initial;
+  height: 46.8125rem;
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.product-categories-container {
+  flex: 1 0 1058px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: -0.0625rem;
+}
+.product-category-list {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tea-kettle-heading-text-style {
+  flex: 1 0 330px;
+  border: none;
+  font: var(--font-weight-400) var(--font-size-23) "Inter";
+  background: url("../../assets/p_169_571_e2b907.jpeg")
+    no-repeat 50% / cover;
+  padding: 33px 11px 316px;
+  box-sizing: border-box;
+  max-width: initial;
+  height: 22.9375rem;
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.smart-cameras-container {
+  flex: 1 0 300px;
+  border: none;
+  background: url("../../assets/div_98_228_172_131_75cac9.jpeg")
+    no-repeat 50% / cover;
+  padding: 28px 21px 293px;
+  box-sizing: border-box;
+  max-width: initial;
+  height: 22.9375rem;
+  margin-left: -0.125rem;
+}
+.smart-camera-heading {
+  font: var(--font-weight-400) var(--font-size-23) / 24px "Inter";
+  box-sizing: border-box;
+  max-width: 9.5rem;
+  color: var(--color-black);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.smart-devices-section {
+  flex: 1 0 350px;
+  border: none;
+  background: url("../../assets/div_98_236_172_132_6e0a23.jpeg")
+    no-repeat 50% / cover;
+  padding: 31px 29.5px 294px 35px;
+  box-sizing: border-box;
+  max-width: initial;
+  height: 22.9375rem;
+  margin-left: -0.0625rem;
+}
+.relay-switches-style {
+  font: var(--font-weight-400) var(--font-size-23) / 24px "Inter";
+  box-sizing: border-box;
+  max-width: 13.125rem;
+  color: var(--color-black);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.robot-vacuum-styles {
+  flex: 1 0 650px;
+  border: none;
+  font: var(--font-weight-400) var(--font-size-23) "Inter";
+  background: url("../../assets/p_169_572_ef9c9f.jpeg")
+    no-repeat 50% / cover;
+  padding: 39px 11px 324px;
+  box-sizing: border-box;
+  max-width: initial;
+  height: 23.875rem;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}
+.product-card-text-style {
+  flex: 1 0 354px;
+  border: none;
+  font: var(--font-weight-400) var(--font-size-23) "Inter";
+  background: url("../../assets/p_172_133_551af6.jpeg")
+    no-repeat 50% / cover;
+  padding: 36px 29.5px 324px 36px;
+  box-sizing: border-box;
+  max-width: initial;
+  height: 23.875rem;
+  margin-left: -0.0625rem;
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.catalog-button-style {
+  flex: 0 0 auto;
+  border: 1px solid var(--color-darkcyan-64b26d24);
+  border-radius: var(--border-radius-50);
+  font: var(--font-weight-500) var(--font-size-24) "Montserrat";
+  background: var(--color-darkcyan-64b26d24);
+  box-sizing: border-box;
+  display: block;
+  width: 22.125rem;
+  min-width: 22.125rem;
+  height: 3.6875rem;
+  margin-top: 2.8125rem;
+  color: var(--color-white);
+  cursor: pointer;
+}

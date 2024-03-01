@@ -1,0 +1,25 @@
+.smart-home-component-container {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-component-container {
+  justify-content: flex-start;
+  margin-top: 3.25rem;
+}
+.home-component-image-container {
+  flex: 0 0 auto;
+}
+.image-container{
+  box-sizing: border-box;
+  display: block;
+  width: 1.3125rem;
+  max-width: initial;
+}
+.smart-home-component-description-text-style {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-22) "Montserrat";
+  color: var(--color-black);
+  white-space: pre-wrap;
+}

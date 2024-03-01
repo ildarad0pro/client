@@ -1,0 +1,17 @@
+.smart-home-component-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding-right: 10rem;
+  padding-left: 0.25rem;
+  margin-top: 4.4375rem;
+}
+.smart-home-component-container:first-child {
+  margin-top: 0rem;
+}
+.smart-home-component-container:last-child {
+  justify-content: flex-end;
+  margin-right: -0.25rem;
+  margin-left: -0.25rem;
+}

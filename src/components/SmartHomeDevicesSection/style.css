@@ -1,0 +1,27 @@
+.smart-home-catalog-layout {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.smart-home-devices-section {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.smart-home-devices-heading {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-48) "Montserrat";
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.smart-home-device-description1 {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-20) "Montserrat";
+  margin-top: 1.5rem;
+  color: var(--color-black);
+  white-space: pre-wrap;
+}

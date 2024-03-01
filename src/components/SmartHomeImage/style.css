@@ -1,0 +1,11 @@
+.vertical-aligned-image-container {
+  flex: 0 0 auto;
+  margin-top: 3.5625rem;
+}
+.image-container1 {
+  box-sizing: border-box;
+  display: block;
+  width: 56.8125rem;
+  max-width: initial;
+  height: 37.125rem;
+}
